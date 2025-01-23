@@ -14,6 +14,8 @@ def multiplicar(a, b):
 
 # Definimos una función para dividir dos números
 def dividir(a, b):
+    if b == 0:
+        return "Error: División por cero"
     return a / b
 
 # Creamos una función para realizar la operación seleccionada por el usuario
